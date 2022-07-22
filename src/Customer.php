@@ -7,7 +7,7 @@ namespace minidatum\belajar{
 
         }
 
-        function haloCustomer(string $name){
+        function haloCustomer(string $name="Guest"){
             echo "Halo $name, Saya $this->name!";
         }
     }
